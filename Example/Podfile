@@ -1,0 +1,6 @@
+use_frameworks!
+target 'KKFlutterPod_Tests' do
+  pod 'KKFlutterPod', :path => '../'
+  
+  
+end
