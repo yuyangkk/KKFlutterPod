@@ -1,0 +1,22 @@
+{
+  "name": "KKFlutterPod",
+  "version": "0.1.0",
+  "summary": "A short description of KKFlutterPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yuyangkk/KKFlutterPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yuyangkk": "wanan_0124@163.com"
+  },
+  "source": {
+    "git": "https://github.com/yuyangkk/KKFlutterPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KKFlutterPod/Classes/**/*"
+}

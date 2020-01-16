@@ -1,0 +1,16 @@
+PODS:
+  - KKFlutterPod (0.1.0)
+
+DEPENDENCIES:
+  - KKFlutterPod (from `../`)
+
+EXTERNAL SOURCES:
+  KKFlutterPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KKFlutterPod: 8a1e53ece995a9b456b59fcf54d7a166e113a525
+
+PODFILE CHECKSUM: e3d9188a0a043a4489c437e0ebebe270c8dd012c
+
+COCOAPODS: 1.6.1

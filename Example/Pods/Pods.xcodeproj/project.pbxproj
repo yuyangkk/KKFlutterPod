@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		465796A59AF0F3ABD5039913B23943A2 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EED61E5AB640AF4449E7BADBFFCA75 /* ReplaceMe.m */; };
+		4969888E573638CA8035EAE36AFF5617 /* Pods-KKFlutterPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E6A525E85F8F88699321C104C6832A /* Pods-KKFlutterPod_Tests-dummy.m */; };
+		6BB1666825A3D53DDE630FC741D414EC /* KKFlutterPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3316362F8298EA22F016BF0DA1BEA04B /* KKFlutterPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89D32F7ABD7ED3C51A5107F91770A22D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A2B931835C46C70FCF67DA432B90D01A /* KKFlutterPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8814896C0DEC0EC82FB48C34FF3B7DDF /* KKFlutterPod-dummy.m */; };
+		BB730D9D3CFD22663051C9CF149A6C9D /* Pods-KKFlutterPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C569C9450FD5ECC17FB5927EC2E47B2 /* Pods-KKFlutterPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EABB64660897FBFEDB292EDC204422B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36C2AB95C7B32232885CEA5872F3C4E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65867A4841F88E9CF9F358A7D1E411E0;
+			remoteInfo = KKFlutterPod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3316362F8298EA22F016BF0DA1BEA04B /* KKFlutterPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKFlutterPod-umbrella.h"; sourceTree = "<group>"; };
+		373910FD8DA34BCD5100C797F0DE4618 /* Pods-KKFlutterPod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KKFlutterPod_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3B37C2C5FFA900EB15B016C429AF86A4 /* KKFlutterPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KKFlutterPod-Info.plist"; sourceTree = "<group>"; };
+		3F2961161F656F88CD10903295ABDC66 /* KKFlutterPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KKFlutterPod.xcconfig; sourceTree = "<group>"; };
+		46E6A525E85F8F88699321C104C6832A /* Pods-KKFlutterPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KKFlutterPod_Tests-dummy.m"; sourceTree = "<group>"; };
+		4BB13F53CFAC4A9F3F589DFD454FCC53 /* KKFlutterPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KKFlutterPod.framework; path = KKFlutterPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F5AD754A3A293960617D3ED8282D05E /* Pods-KKFlutterPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKFlutterPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		58C558ED7EBB02F51C10F16F81305D9C /* Pods-KKFlutterPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KKFlutterPod_Tests.modulemap"; sourceTree = "<group>"; };
+		74DA66D11813FC09A2860496381D4040 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7C244E043C7672014D0C2FC3D0D5F597 /* KKFlutterPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKFlutterPod-prefix.pch"; sourceTree = "<group>"; };
+		7C569C9450FD5ECC17FB5927EC2E47B2 /* Pods-KKFlutterPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KKFlutterPod_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8814896C0DEC0EC82FB48C34FF3B7DDF /* KKFlutterPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KKFlutterPod-dummy.m"; sourceTree = "<group>"; };
+		89EED61E5AB640AF4449E7BADBFFCA75 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = KKFlutterPod/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		9A06A6EB08C506E1206EAF7270193DD8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C1C0F9C36EAA97B99566740102ADE42D /* Pods-KKFlutterPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKFlutterPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D5D2524D2D2EE79559A671928C4D5C06 /* Pods-KKFlutterPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKFlutterPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D817AE86D6CA6BB2F2D079481E15CD01 /* KKFlutterPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KKFlutterPod.modulemap; sourceTree = "<group>"; };
+		DAE1DD6D0409B0756BB309D1CC7955CE /* Pods-KKFlutterPod_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKFlutterPod_Tests-Info.plist"; sourceTree = "<group>"; };
+		DDB168C19E757CA5E9D7A50C177AB193 /* KKFlutterPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KKFlutterPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EFD937E9295D5C64D195BE7F1DD30449 /* Pods_KKFlutterPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KKFlutterPod_Tests.framework; path = "Pods-KKFlutterPod_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F42CF6729DF7399CF67823D56C0C633C /* Pods-KKFlutterPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KKFlutterPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DF5DA0628A6DBCB5C170576D6AEA6CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89D32F7ABD7ED3C51A5107F91770A22D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2AE23121F51AAFD4A8F558C335252CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EABB64660897FBFEDB292EDC204422B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43825F2CB2ACF16B8EB62DBEBDB54E8B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A55C1A37C69C15D15638189EAF3B6D82 /* KKFlutterPod */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		49F1FAB139E9266B30E440723F8184A2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7B3218437CC302DCA95A38D6A0C98A7 /* Pods-KKFlutterPod_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		55F2ECD32493CEF55EB24CDF15469779 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DDB168C19E757CA5E9D7A50C177AB193 /* KKFlutterPod.podspec */,
+				74DA66D11813FC09A2860496381D4040 /* LICENSE */,
+				9A06A6EB08C506E1206EAF7270193DD8 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A052A66796C83E267D327E5599345B19 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D817AE86D6CA6BB2F2D079481E15CD01 /* KKFlutterPod.modulemap */,
+				3F2961161F656F88CD10903295ABDC66 /* KKFlutterPod.xcconfig */,
+				8814896C0DEC0EC82FB48C34FF3B7DDF /* KKFlutterPod-dummy.m */,
+				3B37C2C5FFA900EB15B016C429AF86A4 /* KKFlutterPod-Info.plist */,
+				7C244E043C7672014D0C2FC3D0D5F597 /* KKFlutterPod-prefix.pch */,
+				3316362F8298EA22F016BF0DA1BEA04B /* KKFlutterPod-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KKFlutterPod";
+			sourceTree = "<group>";
+		};
+		A55C1A37C69C15D15638189EAF3B6D82 /* KKFlutterPod */ = {
+			isa = PBXGroup;
+			children = (
+				89EED61E5AB640AF4449E7BADBFFCA75 /* ReplaceMe.m */,
+				55F2ECD32493CEF55EB24CDF15469779 /* Pod */,
+				A052A66796C83E267D327E5599345B19 /* Support Files */,
+			);
+			name = KKFlutterPod;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				43825F2CB2ACF16B8EB62DBEBDB54E8B /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F15BE7AB450140A8E0A5879BEB2E1C36 /* Products */,
+				49F1FAB139E9266B30E440723F8184A2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7B3218437CC302DCA95A38D6A0C98A7 /* Pods-KKFlutterPod_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				58C558ED7EBB02F51C10F16F81305D9C /* Pods-KKFlutterPod_Tests.modulemap */,
+				F42CF6729DF7399CF67823D56C0C633C /* Pods-KKFlutterPod_Tests-acknowledgements.markdown */,
+				D5D2524D2D2EE79559A671928C4D5C06 /* Pods-KKFlutterPod_Tests-acknowledgements.plist */,
+				46E6A525E85F8F88699321C104C6832A /* Pods-KKFlutterPod_Tests-dummy.m */,
+				373910FD8DA34BCD5100C797F0DE4618 /* Pods-KKFlutterPod_Tests-frameworks.sh */,
+				DAE1DD6D0409B0756BB309D1CC7955CE /* Pods-KKFlutterPod_Tests-Info.plist */,
+				7C569C9450FD5ECC17FB5927EC2E47B2 /* Pods-KKFlutterPod_Tests-umbrella.h */,
+				4F5AD754A3A293960617D3ED8282D05E /* Pods-KKFlutterPod_Tests.debug.xcconfig */,
+				C1C0F9C36EAA97B99566740102ADE42D /* Pods-KKFlutterPod_Tests.release.xcconfig */,
+			);
+			name = "Pods-KKFlutterPod_Tests";
+			path = "Target Support Files/Pods-KKFlutterPod_Tests";
+			sourceTree = "<group>";
+		};
+		F15BE7AB450140A8E0A5879BEB2E1C36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BB13F53CFAC4A9F3F589DFD454FCC53 /* KKFlutterPod.framework */,
+				EFD937E9295D5C64D195BE7F1DD30449 /* Pods_KKFlutterPod_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1BF3CF986DB9EB0297C74EE886F0DE45 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BB1666825A3D53DDE630FC741D414EC /* KKFlutterPod-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6929C62A98AC9DCD461CC625FDA9FFC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB730D9D3CFD22663051C9CF149A6C9D /* Pods-KKFlutterPod_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		65867A4841F88E9CF9F358A7D1E411E0 /* KKFlutterPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD7B4AD01CF6ADD1BB76D584C515496C /* Build configuration list for PBXNativeTarget "KKFlutterPod" */;
+			buildPhases = (
+				1BF3CF986DB9EB0297C74EE886F0DE45 /* Headers */,
+				B9C965F2B1240C4D09CE2404031FFB07 /* Sources */,
+				3DF5DA0628A6DBCB5C170576D6AEA6CB /* Frameworks */,
+				4494D70B6E9C9DF1940482D0B723CEF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KKFlutterPod;
+			productName = KKFlutterPod;
+			productReference = 4BB13F53CFAC4A9F3F589DFD454FCC53 /* KKFlutterPod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		65ACB1690ACD6AC4FBF4B870334CBF00 /* Pods-KKFlutterPod_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B79AF8DE2C2E5CD94F19DA672930FC2E /* Build configuration list for PBXNativeTarget "Pods-KKFlutterPod_Tests" */;
+			buildPhases = (
+				A6929C62A98AC9DCD461CC625FDA9FFC /* Headers */,
+				F25FF2E3A3A16C5460DBDF036206C24D /* Sources */,
+				E2AE23121F51AAFD4A8F558C335252CB /* Frameworks */,
+				A8895C8EB562A153345092597DAC0CDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9A82B8E7AC4E4AF8E8B3BD014145486 /* PBXTargetDependency */,
+			);
+			name = "Pods-KKFlutterPod_Tests";
+			productName = "Pods-KKFlutterPod_Tests";
+			productReference = EFD937E9295D5C64D195BE7F1DD30449 /* Pods_KKFlutterPod_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F15BE7AB450140A8E0A5879BEB2E1C36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65867A4841F88E9CF9F358A7D1E411E0 /* KKFlutterPod */,
+				65ACB1690ACD6AC4FBF4B870334CBF00 /* Pods-KKFlutterPod_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4494D70B6E9C9DF1940482D0B723CEF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8895C8EB562A153345092597DAC0CDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9C965F2B1240C4D09CE2404031FFB07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B931835C46C70FCF67DA432B90D01A /* KKFlutterPod-dummy.m in Sources */,
+				465796A59AF0F3ABD5039913B23943A2 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25FF2E3A3A16C5460DBDF036206C24D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4969888E573638CA8035EAE36AFF5617 /* Pods-KKFlutterPod_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9A82B8E7AC4E4AF8E8B3BD014145486 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KKFlutterPod;
+			target = 65867A4841F88E9CF9F358A7D1E411E0 /* KKFlutterPod */;
+			targetProxy = 36C2AB95C7B32232885CEA5872F3C4E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14F6EDABB26E23069F6E3CCC4F739518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F2961161F656F88CD10903295ABDC66 /* KKFlutterPod.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KKFlutterPod/KKFlutterPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KKFlutterPod/KKFlutterPod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KKFlutterPod/KKFlutterPod.modulemap";
+				PRODUCT_MODULE_NAME = KKFlutterPod;
+				PRODUCT_NAME = KKFlutterPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		54B345F9D1248B3D40C4D85813BE11E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F2961161F656F88CD10903295ABDC66 /* KKFlutterPod.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KKFlutterPod/KKFlutterPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KKFlutterPod/KKFlutterPod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KKFlutterPod/KKFlutterPod.modulemap";
+				PRODUCT_MODULE_NAME = KKFlutterPod;
+				PRODUCT_NAME = KKFlutterPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		89D53FE634898684E79D3174CBCE4068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1C0F9C36EAA97B99566740102ADE42D /* Pods-KKFlutterPod_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KKFlutterPod_Tests/Pods-KKFlutterPod_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KKFlutterPod_Tests/Pods-KKFlutterPod_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9A3C788CC0482ECC0C6D7738ADA3020C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F5AD754A3A293960617D3ED8282D05E /* Pods-KKFlutterPod_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KKFlutterPod_Tests/Pods-KKFlutterPod_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KKFlutterPod_Tests/Pods-KKFlutterPod_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B79AF8DE2C2E5CD94F19DA672930FC2E /* Build configuration list for PBXNativeTarget "Pods-KKFlutterPod_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A3C788CC0482ECC0C6D7738ADA3020C /* Debug */,
+				89D53FE634898684E79D3174CBCE4068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD7B4AD01CF6ADD1BB76D584C515496C /* Build configuration list for PBXNativeTarget "KKFlutterPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F6EDABB26E23069F6E3CCC4F739518 /* Debug */,
+				54B345F9D1248B3D40C4D85813BE11E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
