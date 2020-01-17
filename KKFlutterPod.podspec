@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KKFlutterPod'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'A short description of KKFlutterPod.'
 
 # This description is used to generate tags and improve search results.
@@ -38,10 +38,10 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   
-  # s.static_framework = true
-  # p = Dir::open("ios_frameworks")
-  # arr = Array.new
-  # arr.push('ios_frameworks/*.framework')
-  # s.ios.vendored_frameworks = arr
+  s.static_framework = true
+  p = Dir::open("KKFlutterPod")
+  arr = Array.new
+  arr.push('KKFlutterPod/Classes/*.framework')
+  s.ios.vendored_frameworks = arr
   
 end
