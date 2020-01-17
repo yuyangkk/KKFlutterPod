@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		465796A59AF0F3ABD5039913B23943A2 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EED61E5AB640AF4449E7BADBFFCA75 /* ReplaceMe.m */; };
 		4969888E573638CA8035EAE36AFF5617 /* Pods-KKFlutterPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E6A525E85F8F88699321C104C6832A /* Pods-KKFlutterPod_Tests-dummy.m */; };
 		6BB1666825A3D53DDE630FC741D414EC /* KKFlutterPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3316362F8298EA22F016BF0DA1BEA04B /* KKFlutterPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		89D32F7ABD7ED3C51A5107F91770A22D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -33,22 +32,21 @@
 		3B37C2C5FFA900EB15B016C429AF86A4 /* KKFlutterPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KKFlutterPod-Info.plist"; sourceTree = "<group>"; };
 		3F2961161F656F88CD10903295ABDC66 /* KKFlutterPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KKFlutterPod.xcconfig; sourceTree = "<group>"; };
 		46E6A525E85F8F88699321C104C6832A /* Pods-KKFlutterPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KKFlutterPod_Tests-dummy.m"; sourceTree = "<group>"; };
-		4BB13F53CFAC4A9F3F589DFD454FCC53 /* KKFlutterPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KKFlutterPod.framework; path = KKFlutterPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BB13F53CFAC4A9F3F589DFD454FCC53 /* KKFlutterPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KKFlutterPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F5AD754A3A293960617D3ED8282D05E /* Pods-KKFlutterPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKFlutterPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		58C558ED7EBB02F51C10F16F81305D9C /* Pods-KKFlutterPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KKFlutterPod_Tests.modulemap"; sourceTree = "<group>"; };
-		74DA66D11813FC09A2860496381D4040 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		74DA66D11813FC09A2860496381D4040 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7C244E043C7672014D0C2FC3D0D5F597 /* KKFlutterPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKFlutterPod-prefix.pch"; sourceTree = "<group>"; };
 		7C569C9450FD5ECC17FB5927EC2E47B2 /* Pods-KKFlutterPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KKFlutterPod_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8814896C0DEC0EC82FB48C34FF3B7DDF /* KKFlutterPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KKFlutterPod-dummy.m"; sourceTree = "<group>"; };
-		89EED61E5AB640AF4449E7BADBFFCA75 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = KKFlutterPod/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		9A06A6EB08C506E1206EAF7270193DD8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A06A6EB08C506E1206EAF7270193DD8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C1C0F9C36EAA97B99566740102ADE42D /* Pods-KKFlutterPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKFlutterPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D5D2524D2D2EE79559A671928C4D5C06 /* Pods-KKFlutterPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKFlutterPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D817AE86D6CA6BB2F2D079481E15CD01 /* KKFlutterPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KKFlutterPod.modulemap; sourceTree = "<group>"; };
 		DAE1DD6D0409B0756BB309D1CC7955CE /* Pods-KKFlutterPod_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKFlutterPod_Tests-Info.plist"; sourceTree = "<group>"; };
-		DDB168C19E757CA5E9D7A50C177AB193 /* KKFlutterPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KKFlutterPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		EFD937E9295D5C64D195BE7F1DD30449 /* Pods_KKFlutterPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KKFlutterPod_Tests.framework; path = "Pods-KKFlutterPod_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB168C19E757CA5E9D7A50C177AB193 /* KKFlutterPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KKFlutterPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EFD937E9295D5C64D195BE7F1DD30449 /* Pods_KKFlutterPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKFlutterPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F42CF6729DF7399CF67823D56C0C633C /* Pods-KKFlutterPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KKFlutterPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,7 +113,6 @@
 		A55C1A37C69C15D15638189EAF3B6D82 /* KKFlutterPod */ = {
 			isa = PBXGroup;
 			children = (
-				89EED61E5AB640AF4449E7BADBFFCA75 /* ReplaceMe.m */,
 				55F2ECD32493CEF55EB24CDF15469779 /* Pod */,
 				A052A66796C83E267D327E5599345B19 /* Support Files */,
 			);
@@ -285,7 +282,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2B931835C46C70FCF67DA432B90D01A /* KKFlutterPod-dummy.m in Sources */,
-				465796A59AF0F3ABD5039913B23943A2 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,8 +488,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

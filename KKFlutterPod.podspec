@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = '测试自建Pod库'
 
   s.homepage         = 'https://github.com/yuyangkk/KKFlutterPod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -40,10 +38,10 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   
-  s.static_framework = true
-  p = Dir::open("ios_frameworks")
-  arr = Array.new
-  arr.push('ios_frameworks/*.framework')
-  s.ios.vendored_frameworks = arr
+  # s.static_framework = true
+  # p = Dir::open("ios_frameworks")
+  # arr = Array.new
+  # arr.push('ios_frameworks/*.framework')
+  # s.ios.vendored_frameworks = arr
   
 end
