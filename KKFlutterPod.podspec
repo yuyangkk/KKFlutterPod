@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.description      = '测试自建Pod库'
 
   # s.homepage         = 'https://github.com/yuyangkk/KKFlutterPod'
-  s.homepage         = 'https://github.com/yuyangkk/flutterpod.git'
+  s.homepage         = 'https://github.com/yuyangkk/flutterpod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'yuyangkk' => 'wanan_0124@163.com' }
