@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KKFlutterPod'
-  s.version          = '0.1.7'
+  s.version          = '0.1.8'
   s.summary          = 'A short description of KKFlutterPod.'
 
 # This description is used to generate tags and improve search results.
@@ -17,7 +17,9 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = '测试自建Pod库'
+  s.description      = <<-DESC
+  TODO: Add long description of the pod here.
+                         DESC
 
   s.homepage         = 'https://github.com/yuyangkk/KKFlutterPod'
   # s.homepage         = 'https://github.com/yuyangkk/flutterpod'
